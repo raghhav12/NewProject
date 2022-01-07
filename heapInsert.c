@@ -1,4 +1,4 @@
-//insert in a heap
+//insertion in a heap using C
 //by Raghhav Sehgal
 #include<stdio.h>
 #define max 100
@@ -30,10 +30,6 @@ void insert(int arr[], int n, int ne)
   arr[n - 1] = ne;
 
   heapify(arr, n, n - 1);
-
-
-
-
 }
 
 
