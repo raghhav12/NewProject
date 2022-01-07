@@ -1,4 +1,4 @@
-//insertion in a heap
+//insertion in a heap using C
 //by Raghhav Sehgal
 #include<stdio.h>
 #define max 100
